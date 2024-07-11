@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiny Gardens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tiny Gardens</h1>
+        <nav>
+            <ul>
+                <li><a href="#daily-tip">Daily Tip</a></li>
+                <li><a href="#plant-profiles">Plant Profiles</a></li>
+                <li><a href="#garden-gallery">Garden Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="daily-tip">
+            <h2>Daily Garden Tip</h2>
+            <p id="tip"></p>
+            <button onclick="newTip()">Get a New Tip</button>
+        </section>
+
+        <section id="plant-profiles">
+            <h2>Plant Profiles</h2>
+            <div class="plant">
+                <h3>Succulent</h3>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGb5ke0RYibUpMfpjyDDqed1C2ohI-qDBDmg&s" alt="Succulent">
+                <p>Succulents are low-maintenance plants that require minimal watering and thrive in bright light.</p>
+            </div>
+            <div class="plant">
+                <h3>Fern</h3>
+                <img src="https://cdn.britannica.com/30/73130-138-917E422E/Ferns-systems-tracheophytes-leaves-water.jpg?w=800&h=450&c=crop" alt="Fern">
+                <p>Ferns love humid environments and indirect light. Keep their soil moist but not soggy.</p>
+            </div>
+        </section>
+
+        <section id="garden-gallery">
+            <h2>Garden Gallery</h2>
+            <div class="gallery-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Vz9foilDLTRnBuLwYFcObt0m2vZR7IXukA&s" alt="Tiny Garden 1">
+            </div>
+            <div class="gallery-item">
+                <img src="https://hbu.h-cdn.co/assets/16/11/1600x1600/square-gettyimages-157418577-1.jpg" alt="Tiny Garden 2">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tiny Gardens</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
